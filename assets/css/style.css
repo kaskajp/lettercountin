@@ -1,0 +1,121 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+	background: url(../img/blur.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#wrapper-of-elegance {
+	width: 508px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -254px;
+	display: none;
+}
+
+div#container-of-peace {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+div#sweetness-tooltip {
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+	border-radius: 3px;
+	height: 39px;
+	color: #FFF;
+	text-align: center;
+	width: 324px;
+	left: 50%;
+	margin-left: -162px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	opacity: 0;
+	font-size: 15px;
+}
+
+div#sweetness-tooltip div {
+	padding: 0px 20px;
+	margin-top: 12px;
+	opacity: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+div#sweetness-tooltip div p {
+	font-weight: 300;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+div#sweetness-tooltip span.count {
+	font-weight: 400;
+}
+
+div#sweetness-tooltip span.arrow {
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 9px solid rgba(0, 0, 0, 0.2);
+	position: absolute;
+	bottom: -9px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+div#whispering-words-of-love {
+	background: #FFF;
+	width: 460px;
+	min-height: 50px;
+	max-height: 300px;
+	padding: 0px 20px;
+	-webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+	border: 3px solid rgba(0, 0, 0, .2);
+	border-radius: 4px;
+	resize: none;
+	font-size: 14px;
+	color: #a0a0a0;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	overflow: auto;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+.active {
+	border: 3px solid rgba(0, 162, 255, 0.5) !important;
+	box-shadow: 0 0 11px rgba(144, 194, 235, 0.75) !important;
+}
+
+div#whispering-words-of-love div {
+	padding: 16px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+#footer-of-discovery {
+	color: #FFF;
+	font-size: 14px;
+	position: absolute;
+	bottom: 40px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+	font-weight: 300;
+}
+
+#footer-of-discovery a {
+	color: #FFF;
+	text-decoration: none;
+}
